@@ -12,9 +12,9 @@
 #define DHTPIN D4          //pin where the dht11 is connected
 DHT dht(DHTPIN, DHT11);
  
-String apiKey = "C25ICK6FHOR7PST4"; // Enter your Write API key from ThingSpeak
-const char *ssid = "Panasonic";     // replace with your wifi ssid and wpa2 key
-const char *pass = "panasonic";
+String apiKey = "*sdr*"; // Enter your Write API key from ThingSpeak
+const char *ssid = "*sdr*";     // replace with your wifi ssid and wpa2 key
+const char *pass = "*sdr*";
 const char* server = "api.thingspeak.com";
  
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
